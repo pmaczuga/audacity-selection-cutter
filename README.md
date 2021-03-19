@@ -15,3 +15,11 @@ ffmpeg -ss SELECTIONS_START -t SELECTION_DURATION -i FILENAME.EXTENSION -acodec 
 ```
 
 So... you need ffmpeg...
+
+```
+positional arguments:
+  extension   Audio files extension
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
