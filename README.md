@@ -18,8 +18,13 @@ So... you need ffmpeg...
 
 ```
 positional arguments:
-  extension   Audio files extension
+  extension             Audio files extension
 
 optional arguments:
-  -h, --help  show this help message and exit
+  -h, --help            show this help message and exit
+  --input-folder INPUT_FOLDER
+                        Folder where to look for .aup and audio files
+  --output-folder OUTPUT_FOLDER
+                        Folder where save all cutted audio files
+
 ```
